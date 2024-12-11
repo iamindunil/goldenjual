@@ -1,0 +1,35 @@
+body{
+	
+	background-image:url("../picture/back.jpg");
+	background-size:cover;
+}
+
+.logo{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+h1{
+	font-size:50px;
+}
+
+h2{
+	font-size:30px;
+}
+
+hr{
+	border-top:1px solid black;
+}
+
+ul.nav{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#F08080;
+}
+
+li.list{
+	float:left;
+}

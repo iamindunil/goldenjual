@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="rating.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Company Name</title>
+
+</head>
+
+<body>
+    <div class="background-container"></div>
+    
+    <header>
+        <img src="image/logo.png" alt="Company Logo">
+        <h1>Goldenjual.com</h1>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+    </header>
+
+
+
+    
+    <div class="navi">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="help.html">Help & Support</a></li>
+            <li><a href="profile.php">Profile</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><button class="primarykey"><a href="ulog.html">log in</a></button></li>
+            <li><button class="secondkey"><a href="reg.html">Register</a></button></li>
+            
+        </ul>
+       
+
+    </div> 
+
+
+ <div class="back-img"><img src=image/img6.png width="100%" height="70%"></div>
+
+
+ <div class="topic"><h2>Dear Guest, <br></h2>
+    <div class="msg"><p>Thank you for choosing our hotel for your special occasion. Your feedback is extremely valuable to us. Please take a moment to provide your feedback and assist us in improving our services.
+    </p></div>
+
+</div>
+
+    <form id="review-form" method="post" action="rating.php">
+        <h2>Leave a Review</h2>
+        <div>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="">Select a rating</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div>
+            <label for="review">Write a Review:</label>
+            <textarea id="review"  required name="message"></textarea>
+        </div>
+        <input id="submit-button" type="submit" name="submit" value="submit">
+        <p id="thank-you-message">Thank you for submitting your review!</p>
+    </form>
+
+
+
+
+<!-- add our previous reviews -->
+<div class="review-item1">
+    <h2>Ajith Perera</h2><br>
+    <img class="customer-photo" src="image/man1.jpg" width="90px" height="90px ">
+    <h2>Rating -3</h2><br>
+    <div class="para">
+    <p>Absolutely amazing! This hotel's wedding services were excellent. The staff went above and beyond to make our special day flawless from the moment we booked. Our wedding was made unforgettable by the stunning setting, responsive personnel, and great meal.</p>
+    </div>
+</div>
+
+<div class="review-item2">
+<h2>Ella Marshall</h2><br>
+<img class="customer-photo" src="image/lady.jpg" width="90px" height="90px ">
+<h2>Rating -4</h2><br>
+
+<div class="para">
+<p>This hotel was the ideal location for our wedding. The professionalism and genuine concern for our guests displayed by the personnel was outstanding. Our ceremony and reception were held in a beautiful setting, and the hotel's attention to detail definitely made our special day unforgettable.</p>
+</div>
+</div>
+
+<div class="review-item3">
+<h2>M.N.L. Alwis</h2><br>
+<img class="customer-photo" src="image/man2.jpg" width="90px" height="90px ">
+<h2>Rating -5</h2><br>
+
+<div class="para">
+<p>We just held a meeting at this hotel, and it was a fantastic experience. The hotel staff went above and beyond to meet our needs. Our gathering was incredibly fruitful because to the modern meeting spaces, good refreshments, and technical support.</p>
+</div>
+</div>
+
+
+
+
+
+
+    <div class="boxxx">
+            
+        <div class="divvv1">
+            <h2 class="h22">Golden Jual</h2>
+        </div>
+        <div class="box">
+            <img src="image/faceb.png" class="i1">
+            <img src="image/inster.png" class="i2">
+            <img src="image/whats.png" class="i3">
+            
+
+        </div>
+        <div class="boxx">
+            <p class="para">All right reserved goldenjual.com | <a href="#">Contact us</a> | <a href="#">Help</a></p>
+        </div>
+
+
+            
+    </div>
+    
+   
+    <script src="rating.js"></script>
+
+
+</body>
+</html>

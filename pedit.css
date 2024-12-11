@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+        
+     
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f0f0f0; /* Set a background color as a fallback */
+    }
+    
+    .background-container {
+    
+    background-image: url('image/hall1.jpg'); /* Add the path to your background image */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    }
+    
+    header {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better readability */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 1; /* Place the header above the background image */
+    }
+    
+    header img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    max-height: 100px;
+    border-radius: 50%;
+    }
+    
+    header h1 {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+    }
+    
+    .search-bar {
+    margin-right: 10px;
+    }
+    
+    .search-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    }
+    
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: bisque;
+    }
+    
+    li a{
+    float: left;
+    }
+    
+    li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    li a:hover {
+    background-color: white;
+    }
+    
+    li button{
+    
+    border: none;
+    background: none;
+    outline: none;
+    transition: 0.5s;
+    cursor: pointer;
+    float: right;
+    text-align: right;
+    
+    
+    }
+    
+    
+    .secondkey{
+    padding: 15px 40px;
+    background:burlywood;
+    border: 2px solid white;
+    font-weight: bold;
+    color:black;
+    
+    
+    }
+    
+    .primarykey{
+    padding: 15px 40px;
+    background:burlywood;
+    border: 2px solid white;
+    font-weight: bold;
+    color:black;
+    
+    }
+    
+    .primarykey:hover {
+    background-color:white;
+    color: black;
+    }
+    
+    .secondkey:hover{
+    background-color:white;
+    color: black;
+    }
+    
+    footer{
+    background-color: rgba(255, 255, 255, 0.8);
+    }
+    
+    
+    
+    .bottomright {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 0%;
+    
+    }
+    
+    .bottomleft {
+    font-size: 10px;
+    margin-bottom: 15px; 
+    margin-left: 8px;
+    }
+    
+    .fi{
+    padding: 10px ;
+    width: 30px;
+    height: 30px;
+    margin-top: 20%;
+    
+    
+    }
+    .imagee{
+    position: absolute;
+    font-size: 18px;
+    right: 0;
+    
+    
+    }
+    
+    .gold{
+    margin-left: 50%;
+    }
+    .bottomleft
+    {
+        margin: bottom 30px;;
+    }
+    .divvv1{
+        background-color: white;
+        width: 100%;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 8%;
+    }
+    
+    .boxxx{
+        background-color: white;
+        width: 100%;
+        height: 80px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 40.3%;
+        position: relative;
+    }
+    .h22{
+        margin-left: 45%;
+    }
+    .i1{
+        width: 20px;
+        height: 20px;
+        
+    
+        
+       
+    }
+    .i2{
+        width: 20px;
+        height: 20px;
+        
+    
+    }
+    .i3{
+        width: 20px;
+        height: 20px;
+        
+    
+    }
+    
+    .box{
+       
+        width: 10%;
+        height: 40px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        margin-left: 88%;
+        margin-top: 2%;
+        padding: 0px 8px;
+    }
+    .boxx{
+       
+        width: 30%;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        margin-top: 2%;
+        
+    }
+#addimg {
+    background-image: url('image/profile/back.jpg');
+    background-size: cover; /* Adjust this property as needed */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-attachment:local; /* Fix the background image */
+    filter: brightness(0.8);
+}
+
+.editprofile{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile-info
+{
+    margin-top: 20px;
+    display:flex;
+    margin-bottom: 40px;
+}
+
+.profile-field{
+    flex-direction: row;
+    margin-left: 100px;
+}
+
+.profile-field1{
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.profile-value{
+    margin-top: 20px;
+}
+
+#edit {
+    background-color: #028a78;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    
+}
+#delete {
+    background-color: #960c0c;
+    color: #fff;
+    border: none;
+    padding: 7px 13px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.update{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#edit:hover {
+    background-color: #066259;
+    transform: scale(1.05);
+}
+
+#delete:hover {
+    background-color: #310505;
+    transform: scale(1.05);
+}
+
+  /* Style for profile info container */
+  .profile-info {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    background: transparent;
+    backdrop-filter:blur(20px);
+  }
+
+  /* Style for profile fields */
+  .profile-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  /* Style for profile values */
+  .profile-value {
+    margin-bottom: 5px;
+  }
+
+  /* Style for input elements */
+  input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }

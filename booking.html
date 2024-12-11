@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" type="text/css" href="styleall.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Golden Jual</title>
+        
+</head>
+
+<body>
+    <div class="background-container"></div>
+
+    <header>
+        <img src="image/logo.png" alt="Company Logo">
+        <h1>Goldenjual.com</h1>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search...">
+        </div>
+    </header>
+
+    <div class="navi">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="event.html">Event</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="help.html">Help & Support</a></li>
+            <li><a href="profile.php">Profile</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><button class="primarykey"><a href="ulog.html">log in</a></button></li>
+            <li><button class="secondkey"><a href="reg.html">Register</a></button></li>
+                
+
+
+        </ul>
+
+
+    </div>
+
+    <!-- reservation -->
+
+    <section class="reservation" id="reservation">
+
+        <h1 class="heading">book now</h1>
+
+        <form action="booking.php" method="post">
+
+            <div class="container">
+
+                <div class="box">
+                    <p>Full name <span></span></p>
+                    <input type="text" class="input" placeholder="Your Name" name="fullname">
+                </div>
+
+                <div class="box">
+                    <p>email <span></span></p>
+                    <input type="text" class="input" placeholder="Your Email" name="email">
+                </div>
+
+                <div class="box">
+                    <p>check in <span></span></p>
+                    <input type="date" class="input" name="check_in">
+                </div>
+
+                <div class="box">
+                    <p>check out <span></span></p>
+                    <input type="date" class="input" name="check_out">
+                </div>
+
+                <div class="box">
+                    <p>Phone Number<span></span></p>
+                    <input type="text" class="input" placeholder="Your Number" name="phone_number">
+                </div>
+
+                <div class="box">
+                    <p>No of guests<span></span></p>
+                    <input type="number" class="input" name="no_of_guests">
+                </div>
+
+                <div class="box">
+                    <p>NIC/Passport Number<span></span></p>
+                    <input type="text" class="input" placeholder="NIC/Passport Number" name="nic">
+                </div>
+
+                <div class="box">
+                    <p>adults <span></span></p>
+                    <select  class="input" name="adults">
+                        <option selected disabled>adults</option>
+                        <option value="100">100 adults</option>
+                        <option value="150">150 adults</option>
+                        <option value="200">250 adults</option>
+                        <option value="300">300 adults</option>
+                        <option value="400">400 adults</option>
+                        <option value="600">600 adults</option>
+                        <option value="More than 600">Morn than 600 adults</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>children <span></span></p>
+                    <select  class="input" name="children">
+                        <option selected disabled>children</option>
+                        <option value="25">25 child</option>
+                        <option value="50">50 child</option>
+                        <option value="75">75 child</option>
+                        <option value="100">100 child</option>
+                        <option value="200">200 child</option>
+                        <option value="300">300 child</option>
+                        <option value="More than 300">More than 300 child</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>Hall Type <span></span></p>
+                    <select  class="input" name="hall_type">
+                        <option selected disabled>Hall Type</option>
+                        <option value="1">Golden Glitz(Max 100)</option>
+                        <option value="2">Radiant Goldwing(Max 300)</option>
+                        <option value="3">Golden Majesty(Max 500)</option>
+                        <option value="4">Golden Eligance(Max 1000)</option>
+
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>Event <span></span></p>
+                    <select class="input" name="event">
+                        <option value="1">Event</option>
+                        <option value="2">Wedding</option>
+                        <option value="3">Conference and Meeting</option>
+                        <option value="4">Anniversary paties</option>
+                        <option value="5">Product Launches</option>
+                    </select>
+                </div>
+
+                <div class="box"> 
+                    <p>Booking Time<span></span></p>
+
+                    <div class="web">
+                    <input type="radio" id="Day time" name="fav_language" value="Day time">
+                    <label for="Day time">Day time(9AM-5PM)</label><br>
+                    <br><input type="radio" id="Night time" name="fav_language" value="Night time">
+                    <label for="Night time">Night time(6AM-12PM)</label></br>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            </div>
+
+            <center><input type="submit" value="Book Now" class="btn" name="submit"></center>
+
+        </form>
+
+    </section>
+
+
+
+
+
+
+
+
+    <div class="Footer">
+
+        <div class="divvv1">
+            <h2 class="h22">Golden Jual</h2>
+        </div>
+        <div class="Icon">
+            <img src="./facebook.png" class="i1">
+            <img src="./insta.png" class="i2">
+            <img src="./whatsapp.png" class="i3">
+
+
+        </div>
+        <div class="boxx">
+            <p class="para">All right reserved goldenjual.com | <a href="#">Contact us</a> | <a href="#">Help</a></p>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Rest of your webpage content goes here -->
+</body>
+</html>
